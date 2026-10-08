@@ -13,7 +13,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 git branch: 'main',
-                    url: 'YOUR_GITHUB_REPOSITORY_URL'
+                    url: 'https://github.com/abhi2deo/collegeDept_docker.git'
             }
         }
 
